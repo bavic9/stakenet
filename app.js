@@ -15,8 +15,8 @@ function showSidebar(){
 var settings = {
     "async": true,
     "scrossDomain": true,
-    // "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd'",
-    "url": "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=6&page=1&sparkline=false",
+    "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd'",
+    // "url": "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=6&page=1&sparkline=false",
     "method": "GET",
     "headers": {}
 }

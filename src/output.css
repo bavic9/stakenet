@@ -3086,4 +3086,9 @@ video {
 @media (prefers-color-scheme: dark) {
   @media (min-width: 979px) {
     .dark\:lg\:hover\:\[paint-order\:markers\]:hover {
-      paint
+      paint-order: markers;
+    }
+  }
+}
+
+
